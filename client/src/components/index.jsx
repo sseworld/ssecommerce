@@ -6,12 +6,13 @@ import {
   AdminProtectedRoute,
   CartProtectedRoute,
   PageNotFound,
-  ProductByCategory,
   ProductDetails,
+  ProductByCategory,
   CheckoutPage,
 } from "./shop";
-import { UserProfile, UserOrders, SettingUser } from "./shop/dashboardUser";
 import { DashboardAdmin, Categories, Products, Orders } from "./admin";
+import { UserProfile, UserOrders, SettingUser } from "./shop/dashboardUser";
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 /* Routing All page will be here */
